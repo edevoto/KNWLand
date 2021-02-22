@@ -1,6 +1,10 @@
-*{
-    padding: 0;
+@import "_navbar";
+@import "media-q.scss";
+
+*{ 
     margin: 0;
+    padding: 0;
+   
 }
 body{
     font-family: 'Roboto Slab', serif;
@@ -9,7 +13,23 @@ h1{
     color: red;
     font-family: 'Courier New', Courier, monospace;
 }
-.searchBar-height{
-    height: 60%;
-    width: 45%;
+
+.hero{
+    width: 100%;
+    .container-fluid--centerObjects{
+        align-items: center;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+    &--img{
+        width: 100%;
+    }
+    &--text {
+        color: #ffff;
+        
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
 }

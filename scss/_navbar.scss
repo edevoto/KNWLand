@@ -1,0 +1,14 @@
+@import "media-q.scss";
+.links{
+    font-size: 0.8rem;
+}
+.searchBar-height{
+    height: 60%;
+    width: 45%;
+    margin-right: 14em;
+    margin-left: 6em;
+    @include mobile {
+        width: 80%;
+        margin: 0;
+    }
+}
