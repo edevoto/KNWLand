@@ -16,22 +16,49 @@
   padding: 0; }
 
 body {
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(to left, #141e30, #243b55);
+  background-size: cover; }
 
 h1 {
   color: red;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: "Courier New", Courier, monospace; }
 
 .hero {
   width: 100%; }
-  .hero .container-fluid--centerObjects {
-    align-items: center;
-    align-content: center;
+  .hero-fluid {
     display: flex;
-    justify-content: center; }
-  .hero--img {
     width: 100%; }
-  .hero--text {
-    color: #ffff;
-    font-size: 0.8rem;
-    font-weight: 800; }
+    .hero-fluid__form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1em;
+      z-index: 10;
+      margin: 2em 0; }
+      .hero-fluid__form--text {
+        margin: 5em 0 0;
+        text-transform: uppercase;
+        color: #f1b356;
+        font-size: 1rem;
+        font-weight: 800; }
+      .hero-fluid__form--btnContainer {
+        font-size: 0.6rem;
+        margin: 2em 0;
+        max-width: 60%; }
+        .hero-fluid__form--btnContainer--btn-class {
+          border: none;
+          padding: 1em;
+          margin: 0.2em 0;
+          border-radius: 6px;
+          background: rgba(148, 141, 141, 0.789);
+          color: #fffffe; }
+          .hero-fluid__form--btnContainer--btn-class:hover {
+            background-color: rgba(228, 220, 220, 0.789); }
+          .hero-fluid__form--btnContainer--btn-class--btn {
+            padding: 2em;
+            width: 35%;
+            text-align: start; }
+    .hero-fluid--img {
+      margin: 1em 0 9em 40%;
+      width: 60%; }
