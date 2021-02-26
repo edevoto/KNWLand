@@ -19,14 +19,14 @@
 
 <body>
   <header>
-    <div class="container-fluid bg-light">
-      <div class="container text-center p-5">
+    <div class="d-none d-md-flex container-fluid bg-light text-center">
+      <div class=" p-5">
         <h4 class="fs-6 fs-md-1">Seek the way to knowledge, at your time.</h4>
       </div>
     </div>
     <div class="container-fluid bg-dark">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
 
           <a class="navbar-brand" href="#">KNWLand</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -79,19 +79,20 @@
         <form action="" class="hero-fluid__form flex-md-column position-absolute">
           <h1 class="hero-fluid__form--text">What do you want to learn today?</h1>
           
-          <div class="hero-fluid__form--btnContainer">
+          <div class="hero-fluid__form--btnContainer w-100">
             <form class="d-flex mb-2">
-              <input class="form-control mb-3" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control mb-3 w-100" type="search" placeholder="Search" aria-label="Search">
             </form>
-            <label  for="courses"><span class="mb-3 text-white">Conoce mas de nuestros cursos</span></label>
-            <button class="hero-fluid__form--btnContainer--btn-class text-center"><span class="hero-fluid__form--btn-class--btn">boton</span></button>
+            <label class="d-flex" for="courses"><span class="text-white">Conoce mas de nuestros cursos</span></label>
+            <button class="hero-fluid__form--btnContainer--btn-classBuscar text-center"><span>buscar</span></button>
             <label class="mt-2 for=" Join"> <span class="text-white">
                </span></label>
-            <button class="hero-fluid__form--btnContainer--btn-class text-center" id="Join" value="Join"> <span class="hero-fluid__form--btn-class--btn">Join KNWL</span></button>
+            <button class="hero-fluid__form--btnContainer--btn-class text-center" id="Join" value="Join"><span class="d-inline hero-fluid__form--btn-class--btn">Join KNWL</span></button>
           </div>
         </form>
-        <img src="img/students.png" alt="students" class="hero-fluid--img">
+        <img src="img/students.png" alt="students" class="hero-fluid--img" ">
       </div>
+        <img class="position-absolute hero-fluid--imgPerson" src="img/phone-boy.png" style="height: 100px; width: 100px;"" alt="">
     </div>
 
 
