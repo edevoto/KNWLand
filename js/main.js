@@ -1,5 +1,5 @@
 
-let cursos = ["HTML", "CSS", "JAVASCRIPT", "REACT", "PYTHON"];
+/*let cursos = ["HTML", "CSS", "JAVASCRIPT", "REACT", "PYTHON"];
 let precios = [250, 250, 500, 500, 600];
 alert("Hola! Tenemos cursos sobre: " + cursos);
 
@@ -45,3 +45,41 @@ else{
 
 alert(obtenerProducto(contenedorEntrada));
 alert(validar());
+*/
+
+
+
+
+
+
+
+//let nombre         = prompt ("Hola cual es tu nombre?");
+let firstchar      = nombre.slice(0,1);
+let toUpper        = firstchar.toUpperCase();
+let restoNombre    = nombre.slice(1,nombre.lenght);
+let correctName    = toUpper + restoNombre;
+
+
+function presentacion (){
+    
+
+    if(nombre == ""){
+        //alert("Porfavor ingrese un nombre valido. Aprete f5 para ingresar.");
+    }
+    else {
+        //return alert("Hola "+ correctName + " tenemos estos cursos para ti.");
+    }
+}
+
+presentacion();
+
+let padre = document.getElementById("newCursos");
+let newCursosHTML = document.createElement("div");
+for(let element of newCursos){
+   
+    newCursosHTML.innerHTML += 
+    `<a href= "www.google.com"; 
+    style= "text-decoration: none; font-size: 2rem; display: flex;"> ${element.courseName}</a>
+    <p>Teacher: ${element.teacher} <br> Content: ${element.description}</p>`
+}
+padre.appendChild(newCursosHTML);
