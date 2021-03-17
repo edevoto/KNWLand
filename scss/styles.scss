@@ -17,7 +17,19 @@ main{
 h1 {
   color: red;
   font-family: "Courier New", Courier, monospace;
-}
+} 
+.learn{
+  display: flex;
+  justify-content: center;
+&--text {
+        text-align: center;
+        margin: 2em 0 1em 0;
+        text-transform: uppercase;
+        color: rgb(248, 192, 8);
+        font-size: 1.5rem;
+        font-weight: 800;
+      }
+    }
 .hero {
   width: 100%;
   &-fluid {
@@ -32,19 +44,14 @@ h1 {
       z-index: 10;
     
       //margin: 1em 0;
-      &--text {
-        margin: 1em 0 0 0;
-        text-transform: uppercase;
-        color: rgb(248, 192, 8);
-        font-size: 1.5rem;
-        font-weight: 800;
-      }
+    
       &--btnContainer {
         margin-top: 1em;
         font-size: 0.6rem;
         max-width: 60%;
         .searchBar{
-          width: 30em;
+          width: 12em;
+          height: 40%;
         }
         &--btn-class {
           

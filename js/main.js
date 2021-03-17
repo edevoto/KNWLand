@@ -47,6 +47,12 @@ alert(obtenerProducto(contenedorEntrada));
 alert(validar());
 */
 
+
+//CREAR OBJETO CARRITO
+
+//CREAR ARRAY DE PRODUCTOS SELECCIONADOS
+
+//
 class Courses 
 {
 
@@ -320,3 +326,9 @@ for(let element of newCursos){
 }
 padre.appendChild(newCursosHTML);
 newCursosHTML.classList.add('grid');
+
+
+
+
+
+

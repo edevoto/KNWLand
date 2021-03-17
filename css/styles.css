@@ -30,6 +30,17 @@ h1 {
   color: red;
   font-family: "Courier New", Courier, monospace; }
 
+.learn {
+  display: flex;
+  justify-content: center; }
+  .learn--text {
+    text-align: center;
+    margin: 2em 0 1em 0;
+    text-transform: uppercase;
+    color: #f8c008;
+    font-size: 1.5rem;
+    font-weight: 800; }
+
 .hero {
   width: 100%; }
   .hero-fluid {
@@ -41,18 +52,13 @@ h1 {
       width: 30%;
       padding: 1em;
       z-index: 10; }
-      .hero-fluid__form--text {
-        margin: 1em 0 0 0;
-        text-transform: uppercase;
-        color: #f8c008;
-        font-size: 1.5rem;
-        font-weight: 800; }
       .hero-fluid__form--btnContainer {
         margin-top: 1em;
         font-size: 0.6rem;
         max-width: 60%; }
         .hero-fluid__form--btnContainer .searchBar {
-          width: 30em; }
+          width: 12em;
+          height: 40%; }
         .hero-fluid__form--btnContainer--btn-class {
           font-size: 0.7rem;
           border: none;
