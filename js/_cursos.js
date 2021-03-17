@@ -6,6 +6,7 @@ class Courses
                             this.courseName     =   datos.courseName;
                             this.description    =   datos.description;
                             this.price          =   parseInt(datos.price);
+                            this.image          =   datos.image;
                             this.teacher        =   [];
                             this.content        =   [];
                             this.students       =   [];
@@ -38,6 +39,7 @@ newCursos.push(new Courses ({
                             courseName:"Desarrollo Web",
                             description: "Crash course of HTML Programing from beginer to advanced.",
                             price: 100000,
+                            image: "img/desarrolloWeb"
                             
 }))
 newCursos[0].addTeacher("Esteban Leon");
