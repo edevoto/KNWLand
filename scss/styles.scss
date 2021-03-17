@@ -24,12 +24,13 @@ h1 {
     &__form {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 30%;
       padding: 1em;
       z-index: 10;
-      margin: 1em 0;
+    
+      //margin: 1em 0;
       &--text {
-        margin: 14em 0 0 0;
+        margin: 1em 0 0 0;
         text-transform: uppercase;
         color: rgb(248, 192, 8);
         font-size: 1.5rem;
@@ -39,10 +40,12 @@ h1 {
         margin-top: 1em;
         font-size: 0.6rem;
         max-width: 60%;
+        .searchBar{
+          width: 30em;
+        }
         &--btn-class {
           
           font-size: 0.7rem;
-          padding: 1em 8em;
           border: none;
           border-radius: 6px;
           background: rgba(255, 255, 255, 0.789);
@@ -54,7 +57,6 @@ h1 {
         &--btn-classBuscar {
           border: none;
           font-size: 0.7rem;
-          padding: 1em 9.20em;
           margin: 3em 0 1em;//posicion de los botones horizontalmente.
           border-radius: 6px;
           background: rgba(255, 255, 255, 0.789);
@@ -79,3 +81,7 @@ h1 {
    }
   }
 
+.container-footer {
+  background: rgb(162, 77, 162);
+  height: 20vh;
+}
